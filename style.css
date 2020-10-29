@@ -1,0 +1,264 @@
+h1 {
+    color: rgb(255, 111, 59);
+    font-family: belda-extended, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 6px 4px #33F, -3px -5px 4px #F00, 3px -5px 4px #0F0;
+  
+    
+    
+}
+
+
+body {
+background-color: rgb(255, 119, 0);
+background-image: url(bakbild.png);
+background-position: center vertical;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+cursor: url(smaragdo.png), default !important;
+}
+
+
+
+
+.pil {
+  position: relative;
+  top: 60px;
+  left: 180px;
+  transition: transform .2s; /* Animation */
+  width: 100px;
+  margin: 0 auto;
+  transform: rotate(180deg);
+}
+
+.pil:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+}
+
+
+
+.krans {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  margin:-60px 0 0 -60px;
+  -webkit-animation:spin 5s linear infinite;
+  -moz-animation:spin 5s linear infinite;
+  animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.kransruta
+{
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 300px;
+}
+
+
+
+.linntext {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    left: 730px;
+    width: 500px;
+    transition: width 2s, height 4s;
+}
+
+.linntext:hover {
+    width: 800px;
+  }
+
+
+h3 {
+  padding: 30px;
+  color: rgb(247, 136, 38);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+  font-family: belda-extended, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h3:hover {
+  color: mediumslateblue;
+  text-decoration: none;
+}
+
+.taggar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  margin:-60px 0 0 -60px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.cirkel {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 300px;
+}
+
+#mydiv {
+  position: absolute;
+  cursor: move;
+  z-index: 9;
+}
+
+h2 {
+  padding: 30px;
+  color: mediumslateblue;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+  font-family: belda-extended, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h2:hover {
+  color: rgb(231, 71, 22);
+  text-decoration: none;
+}
+
+
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.paragraf01 {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 16px;
+    background-color: rgb(249, 28, 186);
+    padding: 1em;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.paragraf02 {
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(34 12 64 / 0.3);
+    padding: 1em;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+.fontinformation {
+  width: 900px;
+  transition: width 2s, height 4s;
+}
+
+.fontinformation:hover {
+  width: 1000px;
+}
+
+.popup2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup2 .popuptext2 {
+  visibility: hidden;
+  width: 160px;
+  text-align: center;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup2 .popuptext2::after {
+  content: url(font_info.png);
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  margin-left: -5px;
+
+}
+
+/* Toggle this class - hide and show the popup */
+.popup2 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+
+
+#mydiv2 {
+  position: absolute;
+  cursor: move;
+  z-index: 9;
+}
+
+
+
+footer {
+    font-family: 'Istok Web', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+}
+
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1.2rem;
+    padding-bottom: .1rem;
+}
+
+
+
+  h2 {
+      font-size: 1.4rem;
+      padding-bottom: .1rem;
+  }

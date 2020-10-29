@@ -1,0 +1,206 @@
+
+body {
+    overflow-x: hidden;
+    font-family: belda-extended, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: blueviolet;
+    cursor: url(cursorrod.png), default !important;
+    }
+    
+    a {
+        color: black;
+      }
+      
+      a:hover {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      #annanstans {
+          font-family: belda-extended, sans-serif;
+          font-style: italic;
+          color: white;
+          text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 10px #ff2d95, 0 0 20px #ff2d95, 0 0 20px #ff2d95, 0 0 20px #ff2d95, 0 0 45px #ff2d95;
+          background-color: rgb(245, 51, 7);
+          font-size: 0.9rem;
+          margin-top: 4rem;
+      } 
+
+
+h1{
+    color: rgba(255,255,255,.3);
+    font-family: belda-extended, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    position:absolute; top:0; bottom:0; left:0; right:0;
+    margin:auto; 
+    
+    -webkit-animation: floating-text 2s ease alternate infinite;
+       -moz-animation: floating-text 2s ease alternate infinite;
+        -ms-animation: floating-text 2s ease alternate infinite;
+         -o-animation: floating-text 2s ease alternate infinite;
+            animation: floating-text 2s ease alternate infinite;
+  }
+
+
+@-webkit-keyframes floating-text {
+    0% {  
+      -webkit-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @-moz-keyframes floating-text {
+    0% {  
+      -moz-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @-ms-keyframes floating-text {
+    0% {  
+      -ms-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @-o-keyframes floating-text {
+    0% {  
+      -o-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @keyframes floating-text {
+    0% {  
+      transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+
+
+
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: rgb(255, 4, 4);
+}
+
+.caption h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h4 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+
+
+
+footer {
+    font-family: 'Istok Web', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+}
+
+
+.col-md-8 {
+    margin: 2rem auto 8rem;
+    padding-top: 2rem;
+  }
+  .col-md-8 h1 {
+      font-size: 2.4rem;
+    }
+
+
+  @media (max-width: 768px) {
+    h1 {
+        font-size: 1.4rem;
+        padding-bottom: .5rem;
+    }
+    
+    
+    button {
+        font-size: 0.8rem;
+        margin-top: 4em;
+    }
+    .col-md-8 h1 {
+        font-size: 1.7rem;
+      }
+  }
+  
+  
+  
+  
+  /*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/

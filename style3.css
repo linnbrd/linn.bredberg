@@ -1,0 +1,163 @@
+
+h1 {
+    color: rgb(255, 111, 59);
+    font-family: belda-extended, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 6px 4px #33F, -3px -5px 4px #F00, 3px -5px 4px #0F0;  
+}
+
+a {
+  color: rgb(126, 76, 16);
+  
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: url(cursorgron.png), default !important;
+}
+
+body {
+overflow-x: hidden;
+color: blueviolet;
+cursor: url(cursorgron.png), default !important;
+}
+
+
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.caption {
+    position: absolute;
+    top: 20%;
+    width: 60%;
+    color: rgb(126, 76, 16);
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 10px #ff2d95, 0 0 20px #ff2d95, 0 0 20px #ff2d95, 0 0 20px #ff2d95, 0 0 45px #ff2d95;
+}
+
+.caption h2 {
+    font-family: belda-extended, sans-serif;
+    font-style: italic;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
+}
+
+.caption h4 {
+    font-family: belda-extended, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+#tillbaka {
+    font-family: belda-extended, sans-serif;
+    font-style: italic;
+    color: white;
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 10px #ff2d95, 0 0 20px #ff2d95, 0 0 20px #ff2d95, 0 0 20px #ff2d95, 0 0 45px #ff2d95;
+    background-color: rgb(126, 76, 16);
+    cursor: url(cursorgron.png), default !important;
+}
+
+p {
+  font-family: belda-extended, sans-serif;
+  font-style: italic;
+  padding-bottom: .1rem;
+  font-weight: 700;
+  font-size: .8rem;
+  text-shadow: none;
+  text-align: left;
+  margin-bottom: 0em;
+  
+}
+
+h3 {
+  padding: 30px;
+  color: rgb(247, 136, 38);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+  font-family: 'Sansita Swashed', cursive; Arial: sans-serif;
+}
+
+h3:hover {
+  color: mediumslateblue;
+  text-decoration: none;
+}
+
+
+.Utbildning {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(88, 69, 46);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+  cursor: url(cursorgron.png), default !important;
+}
+
+
+
+
+footer {
+    font-family: 'Istok Web', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+}
+
+
+.col-md-8 {
+    margin: 2rem auto 8rem;
+    padding-top: 2rem;
+  }
+  .col-md-8 h1 {
+      font-size: 2.4rem;
+    }
+
+
+  @media (max-width: 768px) {
+    .caption h2 {
+        font-size: 1.4rem;
+        padding-bottom: .1rem;
+    }
+    
+    .caption h4 {
+        font-size: .7rem;
+        padding-bottom: 0rem;
+    }
+    
+    #tillbaka {
+        font-size: .6rem;
+    }
+    .col-md-8 h1 {
+        font-size: 1.7rem;
+      }
+  }
+  
+  
+  
+  
+  /*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/

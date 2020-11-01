@@ -5,9 +5,7 @@ h1 {
     font-style: italic;
     text-align: center;
     text-shadow: 0 6px 4px #33F, -3px -5px 4px #F00, 3px -5px 4px #0F0;
-  
-    
-    
+    font-size: 2.5rem;
 }
 
 
@@ -257,8 +255,11 @@ footer {
 }
 
 
-
   h2 {
       font-size: 1.4rem;
       padding-bottom: .1rem;
+  }
+
+  h1{
+    font-size: 2rem;
   }

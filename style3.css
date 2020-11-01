@@ -123,8 +123,9 @@ footer {
 
   @media (max-width: 768px) {
     .caption h2 {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         padding-bottom: .1rem;
+        letter-spacing: 0rem;
     }
     
     .caption h4 {

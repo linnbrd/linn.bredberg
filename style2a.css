@@ -13,6 +13,7 @@ h1 {
     10px 13px 1px #532a6f,
     12px 15px 1px #45235c,
     14px 17px 1px #381c4a;
+    font-size: 2.5rem;
     
 }
 
@@ -114,6 +115,10 @@ footer {
 .carousel-caption h3 {
     font-size: 70%;
   }
+
+  h1{
+    font-size: 2rem;
+  }  
 
 }
 

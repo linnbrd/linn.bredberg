@@ -192,6 +192,13 @@ footer {
 
   }
   
+
+  @media (min-width: 576px) {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 50px;
+  }
+ 
   
   
   

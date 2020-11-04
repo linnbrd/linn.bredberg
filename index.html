@@ -124,36 +124,37 @@
           
 
 
-         <div class="container py-3">
-            <div class="row"> 
-                <div class="col-1">
+        <nav class="navbar navbar-expand"> 
+          <div class="container-fluid">
+        
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
                   <button>klick!</button>
-                  <script type="text/javascript">
-                  var color = ["#222f3e","#FFD700","#FFA500","#8A2BE2"];
-                  var i = 0;
-                  document.querySelector("button").addEventListener("click",function(){
-                    i = i < color.length ? ++i : 0;
-                    document.querySelector("body").style.background = color[i]
-                  })
-                  </script>
-                </div>
-                <div class="col-10">
-          <h1>Välkommen till min visuella värld</h1>
-<script type="jscript">element.style.textShadow = "…";</script>
-          
-                </div>
-                <div class="col-1">
+                          <script type="text/javascript">
+                          var color = ["#222f3e","#FFD700","#FFA500","#8A2BE2"];
+                          var i = 0;
+                          document.querySelector("button").addEventListener("click",function(){
+                            i = i < color.length ? ++i : 0;
+                            document.querySelector("body").style.background = color[i]
+                          })
+                          </script>
+                </li>
+                <li class="nav-item">
+                  <h1>Välkommen till min visuella värld</h1>
+        
+                </li>
+                <li class="nav-item">
                   <button onclick="changeimg()">klick!</button>
-
+        
                   <script type="text/javascript">
                   function changeimg(){
                     document.querySelector("body").style.backgroundImage = ["url(https://pro2-bar-s3-cdn-cf6.myportfolio.com/f915472f-befb-4173-89dd-743cdb9d23ff/0feec3e2-c751-4757-b396-8aa1523998c3_rw_1920.png?h=458e26f8668d9ec185443ab59286a1a7)"]
                   }
                   </script>
-                </div>
-            </div>
-         </div>
-        </header>
+                </li>
+              </ul>
+          </div>
+        </nav>
 
         <center><button onClick="window.location.reload();">klick!</button> </center>
 

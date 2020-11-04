@@ -9,6 +9,15 @@ h1 {
     font-size: 2.5rem;
 }
 
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 40px;
+}
+
+
 #vand {
   transform: rotate(180deg); 
 }
@@ -106,10 +115,21 @@ footer {
     transform: rotate(180deg); 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 576px) { 
+  h1{
+    font-size: 1rem;
+  }
 
-}
+  .navbar {
+    padding: .1rem;
+  }
 
+  .navbar-nav li {
+    padding-right: 5px;
+  }
+
+
+ }
 @media (max-width: 768px) {
   
 .carousel-caption {
@@ -119,13 +139,18 @@ footer {
 .carousel-caption h1 {
   font-size: 350%;
 }
-
 h1{
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding: .2rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
 }
 
 }
 
-@media (max-width: 576px) {
-  
-}
+

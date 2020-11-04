@@ -17,9 +17,7 @@ h1 {
     
 }
 
-#vand {
 
-}
 
 a {
   color: black;
@@ -42,7 +40,14 @@ cursor: url(kransicon.png), default !important;
 }
 
 
+.navbar {
+  padding: .8rem;
+}
 
+.navbar-nav li {
+  padding-right: 40px;
+}
+3
 
 h3 {
   color: rgba(15, 7, 0, 0.6);
@@ -123,6 +128,47 @@ footer {
 
 }
 
-@media (max-width: 576px) {
+
+@media (max-width: 576px) { 
+  h1{
+    font-size: 1rem;
+  }
+
+  .navbar {
+    padding: .1rem;
+  }
+
+  .navbar-nav li {
+    padding-right: 5px;
+  }
+
+
+ }
+@media (max-width: 768px) {
+  
+
+.carousel-caption {
+  top: 40%;
+}
+
+.carousel-caption h1 {
+  font-size: 250%;
+}
+
+.carousel-caption h3 {
+    font-size: 70%;
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }  
+  .navbar {
+    padding: .2rem;
+  }
+  
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+  
   
 }

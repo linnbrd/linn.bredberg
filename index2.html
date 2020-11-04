@@ -61,37 +61,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@1,700&display=swap" rel="stylesheet">
 
-        <header>
-         <div class="container py-3">
-            <div class="row"> 
-                <div class="col-1">
-                  <button id="vand">klick!</button>
-                  <script type="text/javascript">
-                  var color = ["#FC4280","#6E3610","#42FF0A","#E066EE"];
-                  var i = 0;
-                  document.querySelector("button").addEventListener("click",function(){
-                    i = i < color.length ? ++i : 0;
-                    document.querySelector("body").style.background = color[i]
-                  })
-                  </script>
-                </div>
-                <div class="col-10">
-          <h1>Välkommen till min visuella värld</h1>
-<script type="jscript">element.style.textShadow = "…";</script>
-          
-                </div>
-                <div class="col-1">
-                  <button id="vand" onclick="changeimg()">klick!</button>
 
-                  <script type="text/javascript">
-                  function changeimg(){
-                    document.querySelector("body").style.backgroundImage = ["url(https://pro2-bar-s3-cdn-cf.myportfolio.com/f915472f-befb-4173-89dd-743cdb9d23ff/1b0b92f7-a4a0-4525-a29b-16d1a35db7d9_rw_1200.png?h=b23291e9176a6430b440192d4ffdd9ed)"]
-                  }
-                  </script>
-                </div>
+        <nav class="navbar navbar-expand"> 
+            <div class="container-fluid">
+          
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <button id="vand">klick!</button>
+                    <script type="text/javascript">
+                    var color = ["#FC4280","#6E3610","#42FF0A","#E066EE"];
+                    var i = 0;
+                    document.querySelector("button").addEventListener("click",function(){
+                      i = i < color.length ? ++i : 0;
+                      document.querySelector("body").style.background = color[i]
+                    })
+                    </script>
+                  </li>
+                  <li class="nav-item">
+                    <h1>Välkommen till min visuella värld</h1>
+          
+                  </li>
+                  <li class="nav-item">
+                    <button id="vand" onclick="changeimg()">klick!</button>
+
+                    <script type="text/javascript">
+                    function changeimg(){
+                      document.querySelector("body").style.backgroundImage = ["url(https://pro2-bar-s3-cdn-cf.myportfolio.com/f915472f-befb-4173-89dd-743cdb9d23ff/1b0b92f7-a4a0-4525-a29b-16d1a35db7d9_rw_1200.png?h=b23291e9176a6430b440192d4ffdd9ed)"]
+                    }
+                    </script>
+                  </li>
+                </ul>
             </div>
-         </div>
-        </header>
+          </nav>
 
         <center><button id="vand"><a href="index.html">klick!</a></button> </center>
 

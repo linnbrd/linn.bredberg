@@ -4,8 +4,8 @@ h1 {
     font-weight: 700;
     font-style: italic;
     text-align: center;
-    text-shadow: 0 6px 4px #33F, -3px -5px 4px #F00, 3px -5px 4px #0F0;
-    font-size: 2.5rem;
+    text-shadow: 0 6px 4px #33F, -3px -5px 4px rgb(255, 0, 93), 3px -5px 4px #0F0;
+    font-size: 3rem;
 }
 
 
@@ -20,6 +20,8 @@ background-position: center;
 cursor: url(smaragdo.png), default !important;
 }
 
+
+
 .navbar {
   padding: .8rem;
 }
@@ -28,6 +30,14 @@ cursor: url(smaragdo.png), default !important;
   padding-right: 40px;
 }
 
+button {
+  background-color: rgba(227, 225, 225, 0.952);
+  color: black;
+  border: 2px solid black;
+  font-family: "Helvetica Neue";
+  border-top: 2px solid #666;
+  border-left: 2px solid #666;
+}
 
 .pil {
   position: relative;
@@ -256,7 +266,7 @@ footer {
 
 @media (max-width: 576px) { 
   h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .navbar {
@@ -284,7 +294,7 @@ footer {
   }
 
   h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .navbar {

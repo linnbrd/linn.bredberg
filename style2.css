@@ -1,10 +1,10 @@
 h1 {
-    color: rgb(255, 111, 59);
+    color: rgb(249, 232, 179);
     font-family: belda-extended, sans-serif;
     font-weight: 700;
     font-style: italic;
     text-align: center;
-    text-shadow: 0 6px 4px #33F, -3px -5px 4px #F00, 3px -5px 4px #0F0;
+    text-shadow: 0 6px 4px rgb(247, 59, 115), -3px -5px 4px rgb(255, 0, 93), 3px -5px 4px rgb(187, 243, 187);
     transform: rotate(180deg);   
     font-size: 2.5rem;
 }
@@ -17,6 +17,14 @@ h1 {
   padding-right: 40px;
 }
 
+button {
+  background-color: rgba(227, 225, 225, 0.952);
+  color: black;
+  border: 2px solid black;
+  font-family: "Helvetica Neue";
+  border-top: 2px solid #666;
+  border-left: 2px solid #666;
+}
 
 #vand {
   transform: rotate(180deg); 
@@ -47,7 +55,7 @@ cursor: url(kranscursor.png), default !important;
 
 h3 {
   padding: 70px;
-  color: rgb(247, 136, 38);
+  color: rgb(250, 2, 2);
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
   font-family: belda-extended, sans-serif;
   font-weight: 700;
@@ -56,7 +64,7 @@ h3 {
 }
 
 h3:hover {
-  color: mediumslateblue;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 

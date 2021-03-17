@@ -254,6 +254,54 @@ h2:hover {
   z-index: 9;
 }
 
+.about { color: #f2f2f2; 
+  background: #ff4a4a; 
+  font-size: 75px; 
+  line-height: 50px; 
+  margin: 0 5px 4px;  
+  padding: 10px; 
+  font-family: belda-extended, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+ }
+
+
+
+a { color: #f2f2f2; 
+  font-size: 25px; 
+  text-decoration: none; 
+  font-family: belda-extended, sans-serif;
+  font-weight: 200;
+  font-style: italic; 
+  line-height: 4; }
+
+
+a:hover { color: #dfc119; text-decoration: none; }
+
+.interest { color: #f2f2f2; 
+  background: #fa5a04; 
+  font-size: 75px; 
+
+  margin: 0 5px 24px;  
+  padding: 10px; 
+  font-family: belda-extended, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+ }
+
+
+
+.interest a { color: #0e0af1; 
+  font-size: 25px; 
+  text-decoration: none; 
+  font-family: belda-extended, sans-serif;
+  font-weight: 200;
+  font-style: italic; 
+ }
+
+
+.interest a:hover { color: #f50c0c; text-decoration: none; }
+
 
 
 footer {

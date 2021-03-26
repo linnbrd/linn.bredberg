@@ -73,35 +73,33 @@ h3:hover {
 }
 
 
-
-.carousel-inner img {
-  margin-top: 3em;
-  width: 100%;
-  height: 100%;
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
 }
 
-.carousel-caption {
-  position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
 }
 
-.carousel-caption h1 {
-  font-size: 500%;
-  text-shadow: 1px 1px 10px #000;
-}
-
-.carousel-caption h4 {
-  margin-top: 30%;
-  font-size: 200%;
-  color: rgba(15, 7, 0, 0.6);
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
-  font-family: belda-extended, sans-serif;
-  font-weight: 700;
-  font-style: italic;
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
 }
 
 
+#naglar:hover {
+  filter:sepia(50%);
+    border-radius:50%;
+  }
+
+  #naglar:hover {
+ transition: 1s ease;
+    }
 
 footer {
     font-family: 'Istok Web', sans-serif;
@@ -118,17 +116,7 @@ footer {
 
 @media (max-width: 768px) {
   
-.carousel-caption {
-  top: 40%;
-}
 
-.carousel-caption h1 {
-  font-size: 250%;
-}
-
-.carousel-caption h3 {
-    font-size: 70%;
-  }
 
   h1{
     font-size: 2rem;
@@ -155,17 +143,7 @@ footer {
 @media (max-width: 768px) {
   
 
-.carousel-caption {
-  top: 40%;
-}
 
-.carousel-caption h1 {
-  font-size: 250%;
-}
-
-.carousel-caption h3 {
-    font-size: 70%;
-  }
 
   h1{
     font-size: 1.5rem;

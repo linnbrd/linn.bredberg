@@ -35,7 +35,7 @@ a:hover {
   color: black;
   text-decoration: none;
 }
-
+ /*
 body {
 background-color: rgb(0, 89, 255);
 background-image: url(blabak.png);
@@ -44,9 +44,29 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
-cursor: url(kransicon.png), default !important;
 }
+*/
 
+body {
+  cursor: url(smaragdo.png), default !important;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+*/
 
 .navbar {
   padding: .8rem;
@@ -55,7 +75,7 @@ cursor: url(kransicon.png), default !important;
 .navbar-nav li {
   padding-right: 40px;
 }
-3
+
 
 h3 {
   color: rgba(15, 7, 0, 0.6);
@@ -93,13 +113,37 @@ h3:hover {
 
 
 #naglar:hover {
-  filter:sepia(50%);
+  filter:grayscale(100%);
     border-radius:50%;
   }
 
   #naglar:hover {
  transition: 1s ease;
     }
+
+#paragraph {
+    font-family: 'Happy Monkey', cursive;
+    font-size: 26px;
+}
+
+p {
+  font-family: 'Happy Monkey', cursive;
+}
+
+
+    .feedback {
+
+      padding: 10px 20px;
+      border-radius: 4px;
+    
+    }
+    
+    #mybutton {
+      position: fixed;
+      bottom: -4px;
+      right: 10px;
+    }
+  
 
 footer {
     font-family: 'Istok Web', sans-serif;

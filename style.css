@@ -1,8 +1,6 @@
 h1 {
     color: rgb(255, 111, 59);
-    font-family: belda-extended, sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: 'Happy Monkey', cursive;
     text-align: center;
     text-shadow: 0 6px 4px #33F, -3px -5px 4px rgb(255, 0, 93), 3px -5px 4px #0F0;
     font-size: 3rem;
@@ -91,7 +89,7 @@ button {
 }
 
 .linntext:hover {
-    width: 800px;
+    width: 600px;
   }
 
 
@@ -99,9 +97,7 @@ h3 {
   padding: 30px;
   color: rgb(247, 136, 38);
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
-  font-family: belda-extended, sans-serif;
-  font-weight: 700;
-  font-style: italic;
+  font-family: 'Happy Monkey', cursive;
 }
 
 h3:hover {
@@ -141,9 +137,7 @@ h2 {
   padding: 30px;
   color: mediumslateblue;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
-  font-family: belda-extended, sans-serif;
-  font-weight: 700;
-  font-style: italic;
+  font-family: 'Happy Monkey', cursive;
 }
 
 h2:hover {
@@ -159,7 +153,7 @@ h2:hover {
   }
 
 .paragraf01 {
-    font-family: 'Istok Web', sans-serif;
+  font-family: 'Happy Monkey', cursive;
     font-size: 16px;
     background-color: rgb(249, 28, 186);
     padding: 1em;

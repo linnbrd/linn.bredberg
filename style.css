@@ -1,5 +1,5 @@
 h1 {
-    color: #fa0000;
+    color: #a1ab20;
     font-family: 'Happy Monkey', cursive;
     text-align: center;
     padding: 40px;
@@ -32,7 +32,7 @@ overflow-x:  hidden;
 }
 
 #header .logo {
-  color: #fa0000;
+  color: #a1ab20;
   font-family: 'Happy Monkey', cursive;
   font-size: 1.5em;
   text-decoration: none ;
@@ -54,13 +54,13 @@ margin-left: 20px;
   font-family: 'Happy Monkey', cursive;
   font-size: 1.5em;
   padding: 6px 15px;
-  color: #fa0000;
+  color: #a1ab20;
   border-radius: 20px ;
   }
 
   #header .navigation li a:hover,
   #header .navigation li a:active {
-    background: #fa0000;
+    background: #a1ab20;
     color: #fff;
     }
 

@@ -64,43 +64,6 @@ margin-left: 20px;
     color: #fff;
     }
 
-.circle {
-  display: block;
-  width: 400px;
-  
-
-
-  -webkit-animation: moveLeftToRight 5s linear infinite;
-  -moz-animation: moveLeftToRight 5s linear infinite;
-  -ms-animation: moveLeftToRight 5s linear infinite;
-  animation: moveLeftToRight 5s linear infinite;
-  
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  
-  position: absolute;
-  left: 0;
-}
-
-@-moz-keyframes moveLeftToRight {
-  0%   { left: -100px; }
-  100% { left: 100%; }
-}
-@-ms-keyframes moveLeftToRight {
-  0%   { left: -100px; }
-  100% { left: 100%; }
-}
-@keyframes moveLeftToRight {
-  0%   { left: -100px; }
-  100% { left: 100%; }
-}
-@-webkit-keyframes moveLeftToRight {
-  0%   { left: -100px; }
-  100% { left: 100%; }
-}
-
-
-
 
 
 #mydiv {
@@ -109,52 +72,6 @@ margin-left: 20px;
   z-index: 9;
 }
 
-.parallaxen {
-position: relative;
-width: 100%;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.parallaxen img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  pointer-events: none;
-}
-
-.parallaxen img#mankaninte {
-  transform: translateY(-20px);
-}
-
-.tillhora {
-  position: absolute;
-  top: 10%;
-  right: -200%;
-  width: 50%;
-  transform: translateY(-50%);
-  white-space: nowrap;
-  transform: rotate(-25deg);
-}
-
-.hallavstand {
-  width: 50%;
-  transform: rotate(9deg);
-}
-
-.mankaninte {
-  top: 20%;
-  width: 60%;
-}
-
-.vasschott {
-  top: 4%;
-  right: -20%;
-  width: 60%;
-  transform: rotate(25deg);
-}
 
 .paragraf01 {
   font-family: 'Happy Monkey', cursive;
@@ -179,113 +96,9 @@ align-items: center;
 }
 
 
-.sec {
-  background: black;
-}
 
 
 
-
-.item{
-  transition: .5s ease-in-out;
-}
-
-.item:hover {
-  filter: brightness(70%);
-}
-
-#index-gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#index-gallery .gallery-img {
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-
-#index-gallery .img1 {
-  grid-area: img1;
-  background-image: url("raggarfoton/dsc1.JPG");
-}
-
-#index-gallery .img2 {
-  grid-area: img2;
-  background-image: url("raggarfoton/dsc2.JPG");
-}
-
-#index-gallery .img3 {
-  grid-area: img3;
-  background-image: url("raggarfoton/dsc3.JPG");
-}
-
-#index-gallery .img4 {
-  grid-area: img4;
-  background-image: url("raggarfoton/dsc4.JPG");
-}
-
-#index-gallery .img5 {
-  grid-area: img5;
-  background-image: url("raggarfoton/dsc5.JPG");
-}
-
-#index-gallery .img6 {
-  grid-area: img6;
-  background-image: url("raggarfoton/dsc6.JPG");
-}
-
-#index-gallery .img7 {
-  grid-area: img7;
-  background-image: url("raggarfoton/dsc7.JPG");
-}
-
-#index-gallery .img8 {
-  grid-area: img8;
-  background-image: url("raggarfoton/dsc8.JPG");
-}
-
-#index-gallery .img9 {
-  grid-area: img9;
-  background-image: url("raggarfoton/dsc9.JPG");
-}
-
-#index-gallery .img10 {
-  grid-area: img10;
-  background-image: url("raggarfoton/dsc10.JPG");
-}
-
-
-#index-gallery .img11 {
-  grid-area: img11;
-  background-image: url("raggarfoton/dsc11.JPG");
-}
-
-
-#index-gallery .img12 {
-  grid-area: img12;
-  background-image: url("raggarfoton/dsc12.JPG");
-}
-
-
-#index-gallery .img13 {
-  grid-area: img13;
-  background-image: url("raggarfoton/dsc13.JPG");
-}
-
-#index-gallery .img14 {
-  grid-area: img14;
-  background-image: url("raggarfoton/dsc14.JPG");
-}
-
-#index-gallery .img15 {
-  grid-area: img15;
-  background-image: url("raggarfoton/dsc0.jpeg");
-}
 
 
 /* Popup window when clicked */

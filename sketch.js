@@ -2,11 +2,11 @@ let draft, ready;
 
 function preload() {
   ready = loadImage(
-    "assets/gift2.jpg"
+    "assets/rip_upphovsratten.jpg"
   );
 
   draft = loadImage(
-    "assets/gift1_1.jpg"
+    "assets/drop.jpg"
   );
 }
 

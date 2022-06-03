@@ -2,7 +2,7 @@ let draft, ready;
 
 function preload() {
   ready = loadImage(
-    "assets/rip_upphovsratten.jpg"
+    "assets/rip_upphovsratten2.jpg"
   );
 
   draft = loadImage(
